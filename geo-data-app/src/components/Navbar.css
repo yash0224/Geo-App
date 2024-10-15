@@ -1,0 +1,39 @@
+/* Navbar styles */
+.navbar {
+    background-color: #4CAF50; /* Green background */
+    padding: 15px; /* Padding for the navbar */
+    display: flex; /* Flexbox layout for alignment */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  }
+  
+  .nav-links {
+    display: flex; /* Flexbox for navigation links */
+  }
+  
+  .nav-links a {
+    color: white; /* White text color for links */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 15px; /* Spacing between links */
+    font-weight: 500; /* Slightly bolder text */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .nav-links a:hover {
+    color: #e7f9e7; /* Light green on hover */
+  }
+  
+  .logout-button {
+    background: none; /* No background */
+    border: none; /* No border */
+    color: white; /* White text color */
+    cursor: pointer; /* Pointer cursor for button */
+    font-size: 16px; /* Font size for the button */
+    margin-left: 15px; /* Space before the logout button */
+  }
+  
+  .logout-button:hover {
+    text-decoration: underline; /* Underline on hover for button */
+  }
+  
