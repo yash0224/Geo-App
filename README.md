@@ -52,14 +52,14 @@ The GeoData Management System is a web-based application designed to help users 
 
 - Frontend: React.js with React Router for navigation
 - Map Visualization: React Leaflet
-- Backend: [Your backend technology, e.g., Node.js with Express]
-- Database: [Your database technology, e.g., PostgreSQL with PostGIS extension]
+- Backend: Go
+- Database: MySQL
 
 ## Getting Started
 
 1. Clone the repository
 2. Install dependencies with `npm install`
-3. Set up your backend server and database
+3. Set up your backend server and database `go run main.go`
 4. Configure the API endpoint in the frontend code
 5. Run the development server with `npm start`
 
